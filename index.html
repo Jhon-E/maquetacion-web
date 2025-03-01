@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Crispy Kitchen</title>
+  </head>
+  <body class="w-dvw overflow-x-hidden">
+    <header
+      class="bg-white text-xl sm:text-base p-4 sm:px-26 flex justify-between items-center w-full z-100 sm:fixed sm:top-0"
+    >
+      <h3 class="text-2xl font-bold">Crispy Kitchen</h3>
+      <nav class="hidden md:block">
+        <ul class="flex justify-between w-full gap-10 text-slate-700">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Story</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Our Updates</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="px-8 py-3 bg-red-500 rounded-lg text-white">
+        Reservation
+      </button>
+    </header>
+    <main class="h-auto w-full block overflow-x-hidden">
+      <section
+        class="relative w-full h-dvh bg-[url('/imgs/bg_hero.jpg')] bg-cover bg-center text-white"
+      >
+        <div
+          class="relative flex sm:flex-row flex-col w-full h-full items-center justify-center bg-black/50 sm:px-26 p-6 gap-10 sm:gap-0"
+        >
+          <div class="sm:w-1/2 w-full flex flex-col gap-4">
+            <h1 class="text-7xl font-bold">
+              Delicious <br />
+              Steaks
+            </h1>
+            <span>
+              <span class="flex items-center gap-2 text-2xl">
+                <p>4.4/5</p>
+                <p class="text-yellow-500">★★★★★</p>
+              </span>
+              <p>From <strong>1,206+</strong> Customer reviews</p>
+            </span>
+          </div>
+          <div
+            class="relative h-1/2 w-full sm:h-2/3 sm:w-1/2 flex bg-[url('/imgs/plato_comida_hero.jpg')] bg-cover bg-center flex items-end"
+          >
+            <div
+              class="bg-gradient-to-t from-black to-transparent h-full w-full absolute"
+            ></div>
+            <div class="flex flex-col gap-6 text-xl z-10 p-12">
+              <span class="flex items-center gap-6">
+                <h1 class="font-bold text-3xl">Steak</h1>
+                <span
+                  class="p-4 rounded-full text-yellow-500 bg-white font-bold"
+                  >$26.50</span
+                >
+              </span>
+              <span class="flex items-center gap-2 text-2xl">
+                <p>3.8/5</p>
+                <p class="text-yellow-500">★★★☆☆</p>
+              </span>
+            </div>
+            <div class="absolute flex right-0 bottom-0 text-2xl">
+              <button class="bg-yellow-500 text-white p-4">⬉</button>
+              <button class="bg-red-500 text-white p-4">⬈</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SPECIALS MENUS SECTION -->
+      <section>
+        <div class="flex flex-col items-center gap-10 p-10 w-full">
+          <h2 class="text-4xl font-bold">Special Menus</h2>
+          <div
+            class="grid sm:grid-cols-3 gap-5 items-center justify-items-center"
+          >
+            <div class="h-[420px] w-[300px] flex flex-col justify-between">
+              <div class="h-[70%] w-full bg-red-500">
+                <img
+                  src="https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/JWSG6K3ARRAGXH2JSB6D3HP5HQ.png"
+                  alt="ejemplo"
+                  class="h-full w-full object-cover"
+                />
+              </div>
+              <div class="w-full p-4 flex flex-col gap-2">
+                <span class="flex items-center gap-8">
+                  <h3 class="font-bold">Morning fresh</h3>
+                  <span
+                    class="p-2 rounded-full text-yellow-500 bg-white font-bold drop-shadow-lg"
+                    >$12.50
+                  </span>
+                </span>
+                <span class="flex items-center gap-2 w-full">
+                  <p>4.3/5</p>
+                  <p>⭐⭐⭐</p>
+                  <p class="text-sm text-slate-400">102 Reviews</p>
+                </span>
+              </div>
+            </div>
+            <div class="h-[420px] w-[300px] flex flex-col justify-between">
+              <div class="h-[70%] w-full bg-red-500">
+                <img
+                  src="https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/JWSG6K3ARRAGXH2JSB6D3HP5HQ.png"
+                  alt="ejemplo"
+                  class="h-full w-full object-cover"
+                />
+              </div>
+              <div class="w-full p-4 flex flex-col gap-2">
+                <span class="flex items-center gap-8">
+                  <h3 class="font-bold">Morning fresh</h3>
+                  <span
+                    class="p-2 rounded-full text-yellow-500 bg-white font-bold drop-shadow-lg"
+                    >$12.50
+                  </span>
+                </span>
+                <span class="flex items-center gap-2 w-full">
+                  <p>4.3/5</p>
+                  <p>⭐⭐⭐</p>
+                  <p class="text-sm text-slate-400">102 Reviews</p>
+                </span>
+              </div>
+            </div>
+            <div class="h-[420px] w-[300px] flex flex-col justify-between">
+              <div class="h-[70%] w-full bg-red-500">
+                <img
+                  src="https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/JWSG6K3ARRAGXH2JSB6D3HP5HQ.png"
+                  alt="ejemplo"
+                  class="h-full w-full object-cover"
+                />
+              </div>
+              <div class="w-full p-4 flex flex-col gap-2">
+                <span class="flex items-center gap-8">
+                  <h3 class="font-bold">Morning fresh</h3>
+                  <span
+                    class="p-2 rounded-full text-yellow-500 bg-white font-bold drop-shadow-lg"
+                    >$12.50
+                  </span>
+                </span>
+                <span class="flex items-center gap-2 w-full">
+                  <p>4.3/5</p>
+                  <p>⭐⭐⭐</p>
+                  <p class="text-sm text-slate-400">102 Reviews</p>
+                </span>
+              </div>
+            </div>
+            <div class="h-[420px] w-[300px] flex flex-col justify-between">
+              <div class="h-[70%] w-full bg-red-500">
+                <img
+                  src="https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/JWSG6K3ARRAGXH2JSB6D3HP5HQ.png"
+                  alt="ejemplo"
+                  class="h-full w-full object-cover"
+                />
+              </div>
+              <div class="w-full p-4 flex flex-col gap-2">
+                <span class="flex items-center gap-8">
+                  <h3 class="font-bold">Morning fresh</h3>
+                  <span
+                    class="p-2 rounded-full text-yellow-500 bg-white font-bold drop-shadow-lg"
+                    >$12.50
+                  </span>
+                </span>
+                <span class="flex items-center gap-2 w-full">
+                  <p>4.3/5</p>
+                  <p>⭐⭐⭐</p>
+                  <p class="text-sm text-slate-400">102 Reviews</p>
+                </span>
+              </div>
+            </div>
+            <div class="h-[420px] w-[300px] flex flex-col justify-between">
+              <div class="h-[70%] w-full bg-red-500">
+                <img
+                  src="https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/JWSG6K3ARRAGXH2JSB6D3HP5HQ.png"
+                  alt="ejemplo"
+                  class="h-full w-full object-cover"
+                />
+              </div>
+              <div class="w-full p-4 flex flex-col gap-2">
+                <span class="flex items-center gap-8">
+                  <h3 class="font-bold">Morning fresh</h3>
+                  <span
+                    class="p-2 rounded-full text-yellow-500 bg-white font-bold drop-shadow-lg"
+                    >$12.50
+                  </span>
+                </span>
+                <span class="flex items-center gap-2 w-full">
+                  <p>4.3/5</p>
+                  <p>⭐⭐⭐</p>
+                  <p class="text-sm text-slate-400">102 Reviews</p>
+                </span>
+              </div>
+            </div>
+            <div class="h-[420px] w-[300px] flex flex-col justify-between">
+              <div class="h-[70%] w-full bg-red-500">
+                <img
+                  src="https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/JWSG6K3ARRAGXH2JSB6D3HP5HQ.png"
+                  alt="ejemplo"
+                  class="h-full w-full object-cover"
+                />
+              </div>
+              <div class="w-full p-4 flex flex-col gap-2">
+                <span class="flex items-center gap-8">
+                  <h3 class="font-bold">Morning fresh</h3>
+                  <span
+                    class="p-2 rounded-full text-yellow-500 bg-white font-bold drop-shadow-lg"
+                    >$12.50
+                  </span>
+                </span>
+                <span class="flex items-center gap-2 w-full">
+                  <p>4.3/5</p>
+                  <p>⭐⭐⭐</p>
+                  <p class="text-sm text-slate-400">102 Reviews</p>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- BANNER -->
+      <div
+        class="w-full h-[450px] bg-red-500 flex items-center justify-center overflow-hidden"
+      >
+        <img
+          src="https://emtstatic.com/2018/10/iStock-802865164.jpg"
+          alt="imagen_banner"
+          class="h-full w-full object-cover"
+        />
+      </div>
+      <!-- NEW EVENTS SECTION -->
+      <section class="flex flex-col w-full items-center justify-center h-dvh">
+        <h2 class="text-4xl font-bold pt-12">News & Events</h2>
+        <div
+          class="flex flex-col items-center justify-between gap-4 h-full w-full sm:px-32 py-12"
+        >
+          <div class="flex sm:flex-row flex-col gap-5 w-full h-1/2">
+            <div
+              class="relative h-full w-full text-white bg-[url(https://img.freepik.com/foto-gratis/camareros-felices-trayendo-comida-mesa-sirviendo-grupo-amigos-restaurante_637285-4076.jpg)] bg-cover bg-center"
+            >
+              <div
+                class="bg-gradient-to-t from-black to-transparent h-full w-full"
+              ></div>
+              <span class="absolute left-6 bottom-6 flex flex-col gap-6">
+                <article class="bg-red-500 px-4 py-2 w-min rounded-lg">
+                  Featured
+                </article>
+                <p class="text-lg font-bold">
+                  Healthy Lifestyle and happy living tips
+                </p>
+              </span>
+            </div>
+            <div
+              class="relative h-full w-full text-white bg-[url(https://i.pinimg.com/236x/19/5d/27/195d27625102610c25d2f478e4c26595.jpg)] bg-cover bg-center"
+            >
+              <div
+                class="bg-gradient-to-t from-black to-transparent h-full w-full"
+              ></div>
+              <span class="absolute left-6 bottom-6 flex flex-col gap-6">
+                <article class="bg-red-500 px-4 py-2 w-min rounded-lg">
+                  Featured
+                </article>
+                <p class="text-lg font-bold">How to make a healthy meal</p>
+              </span>
+            </div>
+          </div>
+          <div class="flex sm:flex-row flex-col gap-5 w-full h-1/2">
+            <div
+              class="relative h-full w-full text-white bg-[url(https://img.freepik.com/foto-gratis/camareros-felices-trayendo-comida-mesa-sirviendo-grupo-amigos-restaurante_637285-4076.jpg)] bg-cover bg-center"
+            >
+              <div
+                class="bg-gradient-to-t from-black to-transparent h-full w-full"
+              ></div>
+              <span
+                class="absolute left-2 bottom-2 sm:left-6 sm:bottom-6 flex flex-col sm:gap-6 gap-2"
+              >
+                <article class="w-full flex items-center gap-6">
+                  <span class="bg-blue-500 px-4 py-2 w-min rounded-lg"
+                    >Promotions</span
+                  >
+                  <p>8 April 2022</p>
+                </article>
+                <p class="text-lg font-bold">Is Coconut good for you?</p>
+              </span>
+            </div>
+            <div
+              class="relative h-full w-full text-white bg-[url(https://www.recipetineats.com/tachyon/2021/03/Garlic-Butter-Salmon_9-SQ.jpg)] bg-cover bg-center"
+            >
+              <div
+                class="bg-gradient-to-t from-black to-transparent h-full w-full"
+              ></div>
+              <span
+                class="absolute left-2 bottom-2 sm:left-6 sm:bottom-6 flex flex-col sm:gap-6 gap-2"
+              >
+                <article class="w-full flex items-center gap-6">
+                  <span class="bg-black px-4 py-2 w-min rounded-lg"
+                    >News</span
+                  >
+                </article>
+                <p class="text-lg font-bold">Salmon Steak Noodle</p>
+              </span>
+            </div>
+            <div
+              class="relative h-full w-full text-white bg-[url(https://www.healthyseasonalrecipes.com/wp-content/uploads/2022/06/healthy-cobb-salad-steps-sq-026.jpg)] bg-cover bg-center"
+            >
+              <div
+                class="bg-gradient-to-t from-black to-transparent h-full w-full"
+              ></div>
+              <span
+                class="absolute left-2 bottom-2 sm:left-6 sm:bottom-6 flex flex-col sm:gap-6 gap-2"
+              >
+                <article class="w-full flex items-center gap-6">
+                  <span class="bg-blue-500 px-4 py-2 w-min rounded-lg"
+                    >Meetings</span
+                  >
+                  <p>30 April 2022</p>
+                </article>
+                <p class="text-lg font-bold">Making a healthy salad</p>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="relative bg-[url(https://cdn.forbes.com.mx/2023/10/pexels-rachel-claire-5490965.webp)] bg-cover bg-center w-full text-white sm:p-20 p-10"
+    >
+      <div
+        class="absolute inset-0 bg-gradient-to-t from-black to-black/50"
+      ></div>
+      <div class="relative flex flex-col z-10 gap-12">
+        <h3 class="font-bold text-2xl">Crispy Kitchen</h3>
+        <div
+          class="w-full h-full flex sm:flex-row flex-col sm:gap-0 gap-4 justify-between"
+        >
+          <article class="flex flex-col gap-4">
+            <h5 class="font-bold text-xl">Location</h5>
+            <p class="text-white/75">
+              121 Einstein loop N, Bronx, NY 10475, United States
+            </p>
+            <button class="bg-white/10 px-6 py-4 rounded-md w-min">
+              Directions
+            </button>
+          </article>
+          <article class="flex flex-col gap-4">
+            <h5 class="font-bold text-xl">Opening Hours</h5>
+            <ul class="flex flex-col gap-2 text-white/75">
+              <li>Monday - Friday</li>
+              <li>10:00 AM - 08:00 PM</li>
+              <li>tel: 010-02-0340</li>
+            </ul>
+          </article>
+          <article class="flex flex-col gap-4">
+            <h5 class="font-bold text-xl">Social</h5>
+            <ul class="flex gap-4 text-white/75">
+              <li>Facebook</li>
+              <li>Instagram</li>
+              <li>Twitter</li>
+              <li>Youtube</li>
+            </ul>
+            <p class="text-white/75">
+              &copy; 2022 Crispy Kitchen Co., Ltd. <br />
+              Design: Tooplate
+            </p>
+          </article>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
